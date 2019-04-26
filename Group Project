@@ -1,4 +1,7 @@
+#include <stdio.h>
+#include <iostream>
 
+using namespace std;
 
 
 int linear_search(int x);
@@ -111,5 +114,5 @@ void Selection_sort()
        int temp = a[min]; 
         a[min] = a[i]; 
         a[i] = temp;
-   }  	//Hey I have Added changes again
+   }  	//Hey I have Added changes
 }
